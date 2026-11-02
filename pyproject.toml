@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "zumamailra-infersre_jd008"
+name = "zumamailra-pipeline_parallel_bubble_distribution_profile"
 version = "0.1.0"
 description = "抽取数值做分布分析，用中位数绝对偏差识别推理服务 SRE 工程师·流水线并行气泡比例上的离群点"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://zumamailra.github.io"
-Repository = "https://github.com/zumamailra/infersre_jd008"
-Issues = "https://github.com/zumamailra/infersre_jd008/issues"
+Repository = "https://github.com/zumamailra/pipeline_parallel_bubble_distribution_profile"
+Issues = "https://github.com/zumamailra/pipeline_parallel_bubble_distribution_profile/issues"
 
 [project.scripts]
-infersre_jd008 = "infersre_jd008:main"
+pipeline_parallel_bubble_distribution_profile = "pipeline_parallel_bubble_distribution_profile:main"
 
 [tool.setuptools]
-py-modules = ["infersre_jd008"]
+py-modules = ["pipeline_parallel_bubble_distribution_profile"]
